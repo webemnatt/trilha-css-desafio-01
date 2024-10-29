@@ -1,0 +1,17 @@
+
+footer {
+    padding: 60px 0;
+    text-align: center;
+    background-image: linear-gradient(var(--blue_1-0), var(--blue_1-20));
+    border-top:  var(--border-blue);
+}
+
+footer .dio-logo {
+    width: 300px;
+}
+
+footer a {
+    color: var(--blue_1);
+    font-weight: bold;
+    text-decoration: none;
+}

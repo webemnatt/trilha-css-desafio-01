@@ -1,22 +1,22 @@
 
 .banner {
-    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url(../assets/images/banner.png);
+    background-image: linear-gradient(var(--black-60), var(--blue_2-20), var(--black-60)), url(../images/banner.png);
     background-repeat: no-repeat;
     background-size: cover;
-    border-bottom: 1px solid #33A8DB80;
+    border-bottom: 1px solid var(--blue_1-80);
     height: 600px;
     padding-top: 60px;
 }
 
 .banner .banner-content {
-    color: white;
+    color: var(--white);
     margin: auto;
     text-align: center;
     width: 600px;
 }
 
 .banner .logo {
-    background-color: rgba(0, 0, 0, .2);
+    background-color: var(--black-20);
     border-radius: 50%;
     height: 260px;
     margin: auto;
@@ -26,7 +26,7 @@
 }
 
 .banner h1 {
-    background: -webkit-linear-gradient(#33A8DB, #1472B7);
+    background: -webkit-linear-gradient(var(--blue_1), var(--blue_4));
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
@@ -42,10 +42,10 @@
 
 .banner .banner-content button {
     background-color: transparent;
-    border-image: linear-gradient(#3BA1CD, #1572B7);
+    border-image: linear-gradient(var(--blue_3), var(--blue_5));
     border-image-slice: 10;
     border-radius: 30px;
-    color: #31A8DD;
+    color: var(--blue_2);
     font-size: 1rem;
     font-weight: bold;
     letter-spacing: 4px;
